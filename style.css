@@ -1,3 +1,42 @@
-.wow {
-  width: 100px;
+/* css/style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+#chat-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    max-height: 400px;
+    overflow-y: scroll;
+}
+
+#message-form {
+    margin-top: 10px;
+}
+
+.ia-image {
+    width: 30px; /* Largura da imagem da IA */
+    height: 30px; /* Altura da imagem da IA */
+    margin-right: 10px; /* Margem à direita da imagem da IA */
+    border-radius: 50%; /* Forma arredondada da imagem da IA */
+}
+
+#ia-response {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#ia-message {
+    flex: 1;
 }
